@@ -15,35 +15,35 @@
 			<div class="header-title"></div>
 		</header>
 		
-		<main>
+		<main class="main">
 		<h1 class="visually-hidden">Личное дело Ливаненковой Арины</h1>
     <form class="form" action="form" method="post" name="questionnaire">
     	<div class="form-wrapper">
     		<div class="form-wrapper_item">
     		<div class="form-wrapper_name">
-    			<label class="" for="form-name">Полное фио</label>
-    			<input type="text" name="name" placeholder="Ливаненкова Арина Сергеевна" value="" id="form-name">
+    			<label class="item-name" for="form-name">Полное фио</label>
+    			<input class="name-field" type="text" name="name" placeholder="Ливаненкова Арина Сергеевна" value="" id="form-name">
     		</div>
     		<div class="form-wrapper_name">
-    			<label class="" for="form-birthaday">Год рождения</label>
-    			<input type="date" name="birthaday" placeholder="1991" value="" id="form-birthaday">
+    			<label class="item-birthday" for="form-birthday">Год рождения</label>
+    			<input class="birthday-field" type="date" name="birthday" placeholder="1991" value="" id="form-birthday">
     		</div>
     		<div class="form-wrapper_name">
-    			<label class="" for="form-town">Место жительства</label>
-    			<input type="text" name="town" placeholder="г. Санкт-Петербург" value="" id="form-town">
+    			<label class="item-town" for="form-town">Место жительства</label>
+    			<input  class="town-field" type="text" name="town" placeholder="г. Санкт-Петербург" value="" id="form-town">
     		</div>
     		<div class="form-wrapper_name">
-    			<label class="" for="form-skype">Скайп</label>
-    			<input type="text" name="skype" placeholder="livanenkova" value="" id="form-skype">
+    			<label class="item-skype" for="form-skype">Скайп</label>
+    			<input class="skype-field" type="text" name="skype" placeholder="livanenkova" value="" id="form-skype">
     		</div>
     		<div class="form-wrapper_name">
-    			<label class="" for="form-email">Почта</label>
-    			<input type="email" name="email" placeholder="livanenkova.arina@gmail.com" value="" id="form-email">
+    			<label class="item-email" for="form-email">Почта</label>
+    			<input class="email-field" type="email" name="email" placeholder="livanenkova.arina@gmail.com" value="" id="form-email">
     		</div>
     	  </div>
     		<div class="form-wrapper_item">
     		<h2 class="form-title" >Расскажите о себе чекбоксами</h2>
-    		<p>Отметьте чекбоксами пункты, которые соответствуют вашим скиллам. Отсутствие опыта не означает, что у вас меньше шансов стать одним из наших товарищей. Это означает, что вы будете получать те задачи, с которыми гарантировано будете справляться.</p>
+    		<p class="form-text">Отметьте чекбоксами пункты, которые соответствуют вашим скиллам. Отсутствие опыта не означает, что у вас меньше шансов стать одним из наших товарищей. Это означает, что вы будете получать те задачи, с которыми гарантировано будете справляться.</p>
     		<div class="form-checkbox">
     			<div class="form-checkbox__wrapper">
             <input class="html-checkbox" type="checkbox" name="checkbox_html" id="html" checked="">
@@ -111,31 +111,24 @@
               PHP 
             </label>
           </div>
-          <div class="form-list__wrapper">
+          <div class="form-checkbox__wrapper">
             <input class="mysql-checkbox" type="checkbox" name="checkbox_Mysql" id="mysql" checked="">
             <label class="item-mysql" for="mysql">
               MySql
             </label>
           </div>
-          <div>
+          <div class="form-wrapper_slider">
           	<h2 class="form-title" >Уровень владения JavaScript</h2>
           	<div class="slider">
           	</div>
           </div>
-          <div>
-          <div class="form-date">
-    			<label class="" for="form-date">Дата заполнения</label>
-    			<input type="date" name="date" placeholder="1991" value="" id="form-date">
+          <div class="form-wrapper_date">
+    			<label class="item-date" for="form-date">Дата заполнения</label>
+    			<input class="date-field" type="date" name="date" placeholder="1991" value="" id="form-date">
     		</div>
           </div>
     		</div>
     	</div>
-    	<div>
-    		
-    	</div>
-    	</div>
-
-
     </form>
 		</main>
 	</div>
