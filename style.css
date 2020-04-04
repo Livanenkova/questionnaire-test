@@ -3,9 +3,19 @@ body {
   padding: 0px;
 }
 
+input {
+  border: none;
+  background: inherit;
+}
+
+.main {
+padding-left: 120px;
+padding-right: 120px;
+}
+
 .background {
   background-image: url(img/page_background.png);
-  width: 1280px;
+  width: 100%;
   margin: 0 auto;
 }
 
