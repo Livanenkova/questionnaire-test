@@ -8,11 +8,6 @@ input {
   background: inherit;
 }
 
-.main {
-padding-left: 120px;
-padding-right: 120px;
-}
-
 .background {
   background-image: url(img/page_background.png);
   width: 100%;
@@ -21,8 +16,11 @@ padding-right: 120px;
 
 .container {
   background-image: url(img/background_container.png);
-  width: 1000px;
+  width: 770px;
   margin: 0 auto;
+  padding-left: 115px;
+  padding-right: 115px;
+  background-color: #c69e7d;
 }
 
 
@@ -35,6 +33,10 @@ padding-right: 120px;
   padding: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.header-logo {
+  text-align: center;
 }
 
 .visually-hidden:not(:focus):not(:active),
