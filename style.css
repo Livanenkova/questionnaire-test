@@ -76,7 +76,7 @@ input {
 .form-wrapper_size {
   position: relative;
   padding-top: 20px;
-  padding-bottom: 19px;
+  padding-bottom: 20px;
 }
 
 .name-field {
@@ -100,13 +100,13 @@ input {
 
 .skype-field {
   position: absolute;
-  top: 9px;
+  bottom: 26px;
   padding-left: 30px;  
 }
 
 .email-field {
   position: absolute;
-  top: 9px;
+  bottom: 30px;
   padding-left: 30px;  
 }
 
@@ -116,7 +116,7 @@ input {
   width: 625px;
   height: 2px;
   left: 145px;
-  top: 41px;
+  top: 43px;
   background-color: #4d214f;
 }
 
@@ -143,20 +143,20 @@ input {
 .form-wrapper_skype::after {
   content: "";
   position: absolute;
-  width: 630px;
+  width: 695px;
   height: 2px;
-  left: 155px;
-  top: 45px;
+  left: 75px;
+  top: 40px;
   background-color: #4d214f;
 }
 
 .form-wrapper_email::after {
   content: "";
   position: absolute;
-  width: 630px;
+  width: 695px;
   height: 2px;
-  left: 155px;
-  top: 45px;
+  left: 75px;
+  top: 36px;
   background-color: #4d214f;
 }
 
