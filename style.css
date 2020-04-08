@@ -75,8 +75,8 @@ input {
 
 .form-wrapper_size {
   position: relative;
-  padding-top: 17px;
-  padding-bottom: 12px;
+  padding-top: 20px;
+  padding-bottom: 19px;
 }
 
 .name-field {
@@ -86,14 +86,78 @@ input {
   width: 100%;
 }
 
+.birthday-field {
+  position: absolute;
+  bottom: 21px;
+  padding-left: 30px;  
+}
+
+.town-field {
+  position: absolute;
+  bottom: 30px;
+  padding-left: 30px;  
+}
+
+.skype-field {
+  position: absolute;
+  top: 9px;
+  padding-left: 30px;  
+}
+
+.email-field {
+  position: absolute;
+  top: 9px;
+  padding-left: 30px;  
+}
+
 .form-wrapper_name::after {
-    content: "";
-    position: absolute;
-    width: 625px;
-    height: 2px;
-    left: 145px;
-    top: 41px;
-    background-color: #4d214f;
+  content: "";
+  position: absolute;
+  width: 625px;
+  height: 2px;
+  left: 145px;
+  top: 41px;
+  background-color: #4d214f;
+}
+
+.form-wrapper_birthday::after {
+  content: "";
+  position: absolute;
+  width: 619px;
+  height: 2px;
+  left: 155px;
+  top: 42px;
+  background-color: #4d214f;
+}
+
+.form-wrapper_town::after {
+  content: "";
+  position: absolute;
+  width: 570px;
+  height: 2px;
+  left: 200px;
+  top: 39px;
+  background-color: #4d214f;
+}
+
+.form-wrapper_skype::after {
+  content: "";
+  position: absolute;
+  width: 630px;
+  height: 2px;
+  left: 155px;
+  top: 45px;
+  background-color: #4d214f;
+}
+
+.form-wrapper_email::after {
+  content: "";
+  position: absolute;
+  width: 630px;
+  height: 2px;
+  left: 155px;
+  top: 45px;
+  background-color: #4d214f;
 }
 
 .visually-hidden:not(:focus):not(:active),
