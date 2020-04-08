@@ -50,7 +50,11 @@ input {
 }
 
 .header-logo {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 50px;
 }
 
 .form-checkbox {
@@ -67,6 +71,29 @@ input {
   font-size: 15px;
   font-weight: normal;
   color: #655e58;
+}
+
+.form-wrapper_size {
+  position: relative;
+  padding-top: 17px;
+  padding-bottom: 12px;
+}
+
+.name-field {
+  position: absolute;
+  top: 0px;
+  padding-left: 35px;
+  width: 100%;
+}
+
+.form-wrapper_name::after {
+    content: "";
+    position: absolute;
+    width: 625px;
+    height: 2px;
+    left: 145px;
+    top: 41px;
+    background-color: #4d214f;
 }
 
 .visually-hidden:not(:focus):not(:active),
