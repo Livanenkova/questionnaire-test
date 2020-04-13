@@ -66,17 +66,18 @@ input {
   flex-direction: row;
   flex-wrap: wrap;
   font-weight: bold;
-  letter-spacing: -1px;
 }
 
 .form-checkbox__flex {
   width: 33.33%;
+  letter-spacing: -1px;
 }
 
 .form-text {
   font-size: 15px;
   font-weight: normal;
   color: #655e58;
+/*  letter-spacing: 1px;*/
 }
 
 .form-wrapper_size {
@@ -745,4 +746,65 @@ input[type="radio"].visually-hidden {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+/*slider*/
+
+.slidecontainer {
+  width: 100%; 
+  position: relative;
+}
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 765px;  
+  height: 2px;
+  background-image: url(img/slider_line_main.png);
+  outline:none;
+}
+
+.slider::after {
+  content: "";
+  position: absolute;
+  width: 765px;
+  height: 2px;
+  left: 0px;
+  top: 0px;
+  background-color: #4d214f;
+}
+
+.slider:hover {
+  opacity: 1; 
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; 
+  appearance: none;
+  width: 20px; 
+  height: 14px;  
+  background: inherit;  
+  cursor: pointer;
+  background-image: url(img/slider_pointer.png);
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; 
+  height: 25px; 
+  background: #4CAF50; 
+  cursor: pointer; 
+}
+
+.option-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  font-size: 13px;
+}
+
+option {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
