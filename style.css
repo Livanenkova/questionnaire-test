@@ -830,18 +830,23 @@ input[type="radio"].visually-hidden {
   cursor: pointer; 
 }
 
+input[type=range]::-ms-track {
+  width: 10%;
+  height: 10px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
 .option-wrapper {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
   font-size: 13px;
-/*  border-top: 2px solid black;*/
 }
-
-/*.option-item {
-    border-left: 2px solid black;
-}*/
 
 option {
   display: flex;
@@ -849,15 +854,31 @@ option {
   flex-wrap: wrap;
 }
 
-.line-slider {
-  border-top: 2px solid black;
+option:nth-child(1) {
+  width: 150px;
+}
+
+/*.line-slider {
+  border-top: 2px solid #4c204e;
   display: flex;
   flex-direction: row;
 }
 
-.line-slider__item {
-  width: 25%;
+.line-slider__item:nth-child(1) {
+  width: 150px;
   height: 25px;
-  border-left: 2px solid black;
-  border-right: 2px solid black;
+  border-left: 2px solid #4c204e;
 }
+
+.line-slider__item:nth-child(2) {
+  width: 222px;
+  height: 8px;
+  border-right: 2px solid #4c204e;
+  border-left: 2px solid #4c204e;
+}
+
+.line-slider__item:nth-child(3) {
+  width: 395px;
+  height: 25px;
+  border-right: 2px solid #4c204e;
+}*/
