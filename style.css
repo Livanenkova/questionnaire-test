@@ -852,13 +852,14 @@ option {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 33%;
 }
 
-option:nth-child(1) {
+/*option:nth-child(1) {
   width: 150px;
-}
+}*/
 
-/*.line-slider {
+.line-slider {
   border-top: 2px solid #4c204e;
   display: flex;
   flex-direction: row;
@@ -881,4 +882,4 @@ option:nth-child(1) {
   width: 395px;
   height: 25px;
   border-right: 2px solid #4c204e;
-}*/
+}
